@@ -62,7 +62,7 @@ footer
 {
     html
     {
-        font-size:80%
+        font-size:80%;
     }
 	
 	
@@ -85,4 +85,13 @@ footer
 	.footer p {
 		font-size: 8px;
 	}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  
+{
+	body
+	{
+		background-size: 80%;
+	}
+ 
 }
