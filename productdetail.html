@@ -1,36 +1,25 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">		
+    <head>              
 		<meta name="description" content="Product detail page for Paranormal Activity 4">
 		<meta name="keywords" content="Paranormal Activity 4, suspense, plot summary, details">
         
 		<title>HTML5 Assignment 2 - Details Page</title>
         
         <meta name="viewport" content="width=device-width">
-
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
-        <link rel="stylesheet" href="css/main1.css">
-        <!-- <link rel="stylesheet" href="css/menu.css"> -->
-        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
-        <script src="js/vendor/prefixfree.min.js"></script>
+        
+		<link rel="stylesheet" href="css/main1.css">      
     </head>
 	
 <body>
 	<div id="pageContainer">
-		<header id="top">
-		<!-- <h1>Header</h1> -->
-		
+		<header id="top">		
 			<img alt="bannerImage" src="images/paranormalactivity4banner.png"/>
 		</header>	
 		<div id="contentContainer" class="clearfix">	
-			<aside id="leftside">
-		<!-- <h1>Left Side</h1> -->
-				<img src="images/paranormalactivity4thumbnail.png" alt="ThumbnailImage"></img>
+			<aside id="leftside">		
+				<img src="images/paranormalactivity4thumbnail.png" alt="ThumbnailImage">
 					<p><b>Release date:</b> October 19, 2012 (USA)</p>
 					<p><b>Directors:</b> Henry Joost, Ariel Shulman</p>
 					<p><b>Running time:</b> 99 minutes</p>
@@ -49,228 +38,29 @@
 	<aside id="rightside">
 		<nav>
 			<ul>
-				<li><a href="#">Buy HD</a></li>
-				<li><a href="#">Buy SD</a></li>
+				<li><a href="http://www.amazon.com/Paranormal-Activity-4-Unrated/dp/B00B7G3Y4U/ref=tmm_aiv_title_1?ie=UTF8&qid=1355870032&sr=8-1" target="_blank">Buy HD</a></li><br>
+				<li><a href="http://www.amazon.com/Paranormal-Activity-4-Unrated/dp/B00B7G3Y4U/ref=tmm_aiv_title_1?ie=UTF8&qid=1355870032&sr=8-1" target="_blank">Buy SD</a></li>			
 			</ul>
-		</nav>		
-		<!--<a>Buy HD</a>
-		<a>Buy SD</a>
-		<!-- <audio src="media/Kalimba.mp3"></audio> -->
+		</nav>
+		<h3>Preview audio soundtrack</h3>
 		<audio id="audioplayer" controls>
 			<source src="media/Kalimba.mp3" type="audio/mp3">
 		</audio>
-
+		
+		
 		<p>Thank you for visiting my site! Please fill out the below info for your visit.</p>
-		<form action="demo_form.asp" autocomplete="on">
+		<form action="javascript:void();">
 			First Name:<input type="text" name="firstname"><br>
 			Last Name: <input type="text" name="lastname"><br>
-			E-mail: <input type="email" name="email"><br><br>
-		<input type="submit">
-		</form>				
+			E-mail: <input type="email" name="email" required="required" pattern="*@*" placeholder="Enter a valid email address"/><br><br>
+			<input type="submit" value="Enter"/>
+		</form>
 	</aside>
 	
 	<footer>                
 		<p>&copy; Ben Marcelo <script>today=new Date(); y0=today.getFullYear(); document.write(y0);</script> Trademark All Rights Reserved </p>
 		<address>ben_marcelo@hotmail.com</address>
 	</footer>
-	</div>
-	
-	<!-- <section id="features" class="main_width">
-				
-				<article>
-					<figure>
-					<!--	<img src="images/paranormalactivity4thumbnail.png" alt="Thumbnail"></img>
-					</figure>
-					<header>
-						<h1>Movie Thumbnail</h1>
-					</header>
-					<p>Movie Title metadata - Cast, Directors, Actor/Actresses, etc.</p>
-					
-				</article>
-				<article>
-					
-					<header>
-						<h1>Plot Summary</h1>
-					</header>
-					<p>It has been five years since the disappearance of Katie and Hunter, and a suburban family witness strange events in their neighborhood when a woman and a mysterious child move in.</p>
-					
-				</article>
-				<article>
-					<figure>
-						<img src="#" alt="Movie Preview"></img>
-					</figure>
-					<header>
-						<h1>Movie Preview</h1>
-					</header>
-					<p>Preview video/audio will go here.</p>					
-				</article>
-				<article>
-					<figure>
-						<img src="#" alt="PurchaseButtons"></img>
-					</figure>
-					<header>
-						<h1>Purchase Button Container</h1>
-					</header>
-					<p>Buttons for HD/SD will go here</p>
-					<a href="#">Buy SD</a>
-				</article>
-			</section> -->			
+	</div>	
 </body>
-    
-	
-<!--	<body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
-		<!--<div>
-			<div class="top_area">
-				<header class="site_header main_width clearfix">
-					<h1>HTML5</h1>
-					<nav>
-						<ul id="menu">
-							<li>
-								<a href="#">Markup</a>
-								<ul>
-									<li><a href="#">&lt;header&gt;</a></li>
-									<li><a href="#">&lt;hgroup&gt;</a></li>
-									<li><a href="#">&lt;nav&gt;</a></li>
-									<li><a href="#">&lt;footer&gt;</a></li>
-									<li><a href="#">&lt;section&gt;</a></li>
-									<li><a href="#">&lt;article&gt;</a></li>
-									<li><a href="#">&lt;aside&gt;</a></li>
-									<li><a href="#">&lt;figure&gt;</a></li>
-									<li><a href="#">&lt;figcaption&gt;</a></li>
-									<li><a href="#">&lt;mark&gt;</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">CSS</a>
-								<ul>
-									<li><a href="#">Gradients</a></li>
-									<li><a href="#">Shadows</a></li>
-									<li><a href="#">Selectors</a></li>
-									<li><a href="#">Transformations</a></li>
-									<li><a href="#">Animations</a></li>
-									<li><a href="#">Media Queries</a></li>
-									<li><a href="#">Responsive Design</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">APIs</a>
-								<ul>
-									<li><a href="#">Storage</a></li>
-									<li><a href="#">Drag and Drop</a></li>
-									<li><a href="#">Messaging</a></li>
-								</ul>
-							</li>
-							<li><a href="#">The Spec</a></li>
-						</ul>
-					</nav>
-				</header>
-				<section id="marquee" class="main_width clearfix">
-					<article>
-						<h1>Standardized Web Applications</h1>
-						<h3>The spec <em>finally</em> caught up!</h3>
-						<p>Yes! I am a citizen! Now which way to the welfare office? I'm kidding, I'm kidding. I work, I work. Marriage is like a coffin and each kid is another nail.</p>
-						<a href="#">Read More</a>
-					</article>
-				</section>
-			</div>
-			<section id="features" class="main_width clearfix">
-				<header>
-					<h2>Features</h2>
-				</header>
-				<article>
-					<figure>
-						<img src="./img/semantic.jpg" alt="Semantic Markup"></img>
-					</figure>
-					<header>
-						<h1>Semantic Markup</h1>
-					</header>
-					<p>Marge, it takes two to lie. One to lie and one to listen.</p>
-					<a href="#">Learn More</a>
-				</article>
-				<article>
-					<figure>
-						<img src="./img/media.jpg" alt="HTML5 Media Tags"></img>
-					</figure>
-					<header>
-						<h1>Media Without Plugins</h1>
-					</header>
-					<p>When will I learn? The answers to life's problems aren't at the bottom of a bottle, they're on TV!</p>
-					<a href="#">Learn More</a>
-				</article>
-				<article>
-					<figure>
-						<img src="./img/writing-data.jpg" alt="HTML5 Data Attributes"></img>
-					</figure>
-					<header>
-						<h1>Data Attributes</h1>
-					</header>
-					<p>Fame was like a drug. But what was even more like a drug were the drugs.</p>
-					<a href="#">Learn More</a>
-				</article>
-				<article>
-					<figure>
-						<img src="./img/html5-input-types.png" alt="HTML5 Input Types"></img>
-					</figure>
-					<header>
-						<h1>Input Elements</h1>
-					</header>
-					<p>When will I learn? The answers to life's problems aren't at the bottom of a bottle, they're on TV!</p>
-					<a href="#">Learn More</a>
-				</article>
-			</section>
-			<footer>
-				<div class="main_width">
-					<div class="clearfix">
-						<div>
-							<h1><a href="#"/>Resources</a></h1>
-							<ul>
-								<li><a href="http://Simpsonipsum.com" target="_blank">Simpson Ipsum</a></li>
-								<li><a href="http://www.red-team-design.com/css3-dropdown-menu" target="_blank">CSS Menu</a></li>
-								<li><a href="http://www.google.com/webfonts#HomePlace:home" target="_blank">Google Web Fonts</a></li>
-								<li><a href="#"></a></li>
-							</ul>
-						</div>
-						<div>
-							<h1><a href="#">Pellentesque</a></h1>
-							<ul>
-							   <li><a href="#">Lorem ipsum</a></li>
-							   <li><a href="#">Dolor sit</a></li>
-							   <li><a href="#">Amet</a></li>
-							</ul>
-						</div>
-						<div>
-							<div>
-								<h1><a href="#">Pellentesque</a></h1>
-								<ul>
-								   <li><a href="#">Lorem ipsum</a></li>
-								   <li><a href="#">Dolor sit</a></li>
-								   <li><a href="#">Amet</a></li>
-								</ul>
-							</div>
-						</div>
-						<div>
-							<div>
-								<h1><a href="#">Pellentesque</a></h1>
-								<ul>
-								   <li><a href="#">Lorem ipsum</a></li>
-								   <li><a href="#">Dolor sit</a></li>
-								   <li><a href="#">Amet</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<p>&copy; Ben Marcelo 2013</p>
-				</div>
-			</footer>
-		</div>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-    </body>-->
 </html>
