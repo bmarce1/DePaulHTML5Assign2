@@ -93,5 +93,10 @@ footer
 	{
 		background-size: 1024px 1030px;
 	}
+	
+	nav
+	{
+		min-height: 415px;
+	}
  
 }
