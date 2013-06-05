@@ -44,23 +44,7 @@ nav a {
 	
 	box-shadow: 4px 4px 5px #888888;
 	color: white;
-}
-	
- /* background: -moz-linear-gradient(center top , #3E779D, #28597A) repeat scroll 0 0 transparent;
-    border-radius: 0 0 0 0;
-    border-top: 1px solid #96D1F8;
-    box-shadow: 0 1px 0 #000000;	
-    font-family: futura-pt,news-gothic-std,Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    left: 60px;
-    padding: 10.5px 21px;
-    position: relative;
-    text-decoration: none;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
-    top: 72px;
-    vertical-align: middle;
-}*/
+} 
 
 footer 
 {
@@ -72,153 +56,33 @@ footer
 
 
 
-/*#region 7. Media Query */
+/**** Media Query ****/
 
-@media only screen and (min-width: 320px) and (max-width: 540px)
+@media screen and (max-width: 640px)
 {
     html
     {
         font-size:80%
     }
+	
+	
+	
+	header img
+	{
+		width: 550px;
+	}
     
     body {
-        background-position: center -50px;
-    }
         
-    .indexContent {
-        padding-top: 25px;
-    }
-    
-    .loginContent 
-    {
-        width:300px;
-        padding: 60px 0 0 0;
-    }
-        
-    #loginWelcome 
-    {
-        text-align: left;
-        margin: 0;
-        padding-top: 20px;
-        height: auto;
+		background-size: 640px 675px;		
     }
 	
-	#loginWelcome h1 {
-		padding: 0px;
-		width: auto;
-		font-size: 22px;
-	}
-	
-	.cartQuantityNumber{
-		width: auto;
-		text-align: right;
-	}
-	
-	.cartLabels{
-		margin-right: 5px;
-	}
-	
-	.cartLogo {
-		background-image: url("../Assets/CartIconMobile.png");
-    	background-repeat: no-repeat;
-    	background-position: left center;
-    	height: auto !important;
-    	width: 32px; 
-	}
-    
-    .registerContent 
-    {
-        padding: 60px 0 0 0;
-    }
-    
-    .helpContent
-    {
-    	width:300px;
-        padding: 60px 0 0 0;
-    }
-    
-    
-	.tempPasswordContent
+	nav
 	{
-		width:300px;
-		padding: 60px 0 0 0;
+		min-height: 315px;
 	}
-
-	.forgotPasswordContent
-	{
-		width:300px;
-	}
-	
-	.uvContent
-	{						
-        padding: 60px 0 0 0;
-	}
-	
-    .orderingBillingContent
-    {
-    	width:300px;
-        padding: 60px 0 0 0;
-    }
-    
-    .orderingContent
-    {
-    	width:300px;
-        padding: 60px 0 0 0;
-    }
-    
-    .interiorPageWrapper {
-        background-position: center top;
-     }
-    
-    #footerWrapper {
-        width: 100%;
-        margin: 0px auto 0 auto; 
-    }
-       
-    .pagingControl {
-        display: none;
-    }    
- 
-    .productContent {
-        width: 100%;
-        padding-top: 46px;
-    }
-    
-    #contentWrapper {
-    	background-position: center 0px;
-    }
-    
-    .pageMenu {
-		height: auto;
-	}
-	
-	.pagingItem a:hover {
-		color: #387AB4;
-	}
-	
-	.pagingItem a:active {
-		color: #387AB4;
-	}	
-	
-	.pagingItem li {
-		
-	}
-	
-	#loginSessionExpired {
-		width: 200px;
-	}
-	
-	.loginContent {
-		padding-top: 0px;
-	}
-
 	
 	.footer p {
 		font-size: 8px;
 	}
-	
-	#footerWrapper a {
-		font-size: 10px;
-	}
-
 }
