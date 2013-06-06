@@ -83,6 +83,24 @@ h1
 	text-align: left;
 	margin-top: 200px;
 }
+
+#rightside li
+{
+	list-style-type: none;
+}
+
+nav a:link
+{
+	color:red
+}
+
+#rightside a:hover 
+{
+	color: red;
+	font-size:20px;
+	cursor:pointer;	
+}
+
 #audioplayer
 {
 	width: 180px;
