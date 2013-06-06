@@ -1,7 +1,7 @@
 body
 {
 	background-color: silver;	
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Alef', Arial, Helvetica, sans-serif;	
 	font-size: 87.5%;	
 }
 
@@ -93,5 +93,16 @@ footer
 	text-align: center;
 	margin-top: 20px;
 	font-size: 83%;
+	
+}
+
+/**** Media Query ****/
+
+@media screen and (max-width: 640px)
+{
+	#audioplayer
+	{
+		width:50%;
+	}
 	
 }
